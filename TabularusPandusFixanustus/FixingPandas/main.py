@@ -51,12 +51,12 @@ def preiod_compress(period_table, quartile=False, half_years=False):
 
     # The way data gets separated.
     period_limit = 12
-    by_quartile = 3
+    by_quartile = 4
     by_half_years = 2
     # What kind of trickery it is? I'm not to explain.
 
     # Prefixes are later used to concatenate tables.
-    quartile_period_prefix = ["Fiqua_", "Sequa_", "Thqua_", "Frqua_"]
+    quartile_period_prefix = ["Fiqua_", "Sequa_", "Thqua_"]
     half_year_period_prefix = ["Fiyear_", "Seyear_", "Thyear_", "Frryear_", "Fvyear_", "Siyear_"]
 
     # Rename ids to make them correct.
